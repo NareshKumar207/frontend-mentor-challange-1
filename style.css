@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+.inner-box{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 10px 20px rgb(186, 186, 186);
+}
+.first{
+    display: flex;
+    background-color:#4c3aea;
+    border-radius: 30px;
+    color: white;
+    padding: 30px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.label{
+    text-align: center;
+    /* margin-top: 10px; */
+    color: rgba(255, 255, 255, 0.722);
+    font-weight: bold;
+}
+.result{
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    text-align: center;
+    background: linear-gradient(150deg,#4A24CF,#4633ED);
+    /* box-shadow: 10px 10px 100px rgba(241, 213, 255, 0.437); */
+}
+.result span{
+    font-size: 16px;
+    color: rgb(162, 161, 161);
+    font-weight: bold;
+}
+.feedback{
+    text-align: center;
+}
+.feedback p{
+    font-size: 16px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.second{
+    padding: 10px;
+}
+.second h5{
+    margin: 10px 20px;
+}
+.second ul li{
+    padding:5px 10px 10px 10px;
+    list-style: none;
+    margin:15px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.second ul li span{
+    font-size: 18px;
+    margin:0px 8px;
+}
+.second ul li label{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.second ul li img{
+    width: 15px;
+}
+.second ul li:nth-child(1) span{
+    color: crimson;
+    margin-right: 65px;
+}
+.second ul li:nth-child(2) span{
+    color: rgb(255, 171, 54);
+    margin-right: 65px;
+}
+.second ul li:nth-child(3) span{
+    color:darkcyan;
+    margin-right: 85px;
+}
+.second ul li:nth-child(4) span{
+    color:rgb(51, 51, 177);
+    margin-right: 85px;
+}
+.second ul li:nth-child(1){
+    background-color: rgba(220, 20, 60, 0.07);
+}
+.second ul li:nth-child(2){
+    background-color: rgba(255, 171, 54, 0.07);
+}
+.second ul li:nth-child(3){
+    background-color: rgba(0, 139, 139, 0.07);
+}
+.second ul li:nth-child(4){
+    background-color: rgba(51, 51, 177, 0.07);
+}
+.second button{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background:linear-gradient(rgb(110, 39, 242),rgb(56, 39, 242));
+    width: 100%;
+    height: 40px;
+}
